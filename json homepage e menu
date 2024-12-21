@@ -1,0 +1,40 @@
+{
+    "it": {
+        "hero": {"title": "Benvenuto su ThinkAI", "subtitle": "Esplora il futuro dell'intelligenza artificiale"},
+        "lifehacks": {"title": "Life Hacks", "description": "Scopri come l'AI può migliorare la tua vita quotidiana."},
+        "work": {"title": "Ambito Lavorativo", "description": "Soluzioni AI per aumentare la produttività sul lavoro."},
+        "university": {"title": "Ambito Universitario", "description": "Strumenti AI per facilitare lo studio e la ricerca."},
+        "menu": {
+            "lifehacks": "Life Hacks",
+            "work": "Ambito Lavorativo",
+            "university": "Ambito Universitario",
+            "curiosity": "Curiosità AI",
+            "news": "Notizie",
+            "about": "Chi siamo"
+        },
+        "footer": {
+            "contact": "Contattaci",
+            "privacy": "Informativa sulla privacy",
+            "terms": "Termini e condizioni"
+        }
+    },
+    "en": {
+        "hero": {"title": "Welcome to ThinkAI", "subtitle": "Explore the future of artificial intelligence"},
+        "lifehacks": {"title": "Life Hacks", "description": "Discover how AI can enhance your daily life."},
+        "work": {"title": "Work Environment", "description": "AI solutions to boost workplace productivity."},
+        "university": {"title": "University Environment", "description": "AI tools to support studying and research."},
+        "menu": {
+            "lifehacks": "Life Hacks",
+            "work": "Work Environment",
+            "university": "University Environment",
+            "curiosity": "AI Curiosities",
+            "news": "News",
+            "about": "About Us"
+        },
+        "footer": {
+            "contact": "Contact Us",
+            "privacy": "Privacy Policy",
+            "terms": "Terms and Conditions"
+        }
+    }
+}

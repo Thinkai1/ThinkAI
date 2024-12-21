@@ -1,0 +1,20 @@
+<nav>
+    <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="life-hacks.html">Life Hacks</a></li>
+        <li><a href="ambito-lavorativo.html">Ambito Lavorativo</a></li>
+        <li><a href="ambito-universitario.html">Ambito Universitario</a></li>
+        <li><a href="galleria-arte.html">Galleria d'Arte</a></li>
+        <li><a href="curiosita-ai.html">Curiosità</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="about-us.html">Chi Siamo</a></li>
+        <li>
+            <a href="#language" id="language-btn">
+                <img src="icons/language-icon.png" alt="Lingua" class="icon"> Lingua
+            </a>
+        </li>
+        <li><a href="prova.html" class="cta">Prova Ora</a></li>
+    </ul>
+</nav>
+
+

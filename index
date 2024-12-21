@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThinkAI - Scopri il Futuro con l'AI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <?php include 'header.html'; ?>
+    <aside class="menu-sidebar" id="menuSidebar">
+        <a href="#lifehacks" id="menu-lifehacks">Caricamento...</a>
+        <a href="#ambito-lavorativo" id="menu-work">Caricamento...</a>
+        <a href="#ambito-universitario" id="menu-university">Caricamento...</a>
+        <a href="#curiosita-ai" id="menu-curiosity">Caricamento...</a>
+        <a href="#news" id="menu-news">Caricamento...</a>
+        <a href="#about-us" id="menu-about">Caricamento...</a>
+    </aside>
+    <main>
+        <header>
+            <select id="language-select" onchange="changeLanguage()">
+                <option value="it" selected>Italiano</option>
+                <option value="en">English</option>
+            </select>
+        </header>
+        <div class="search-bar" id="searchBar">
+            <input type="text" placeholder="Cerca nel sito..." aria-label="Cerca nel sito">
+        </div>
+        <section id="hero">
+            <h1 id="hero-title">Caricamento...</h1>
+        </section>
+        <div class="home-sections">
+            <div class="home-section" id="lifehacks">
+                <img src="images/lifehacks.jpg" alt="Life Hacks">
+                <h2 id="lifehacks-title">Caricamento...</h2>
+            </div>
+            <div class="home-section" id="ambito-lavorativo">
+                <img src="images/work.jpg" alt="Ambito Lavorativo">
+                <h2 id="work-title">Caricamento...</h2>
+            </div>
+            <div class="home-section" id="ambito-universitario">
+                <img src="images/university.jpg" alt="Ambito Universitario">
+                <h2 id="university-title">Caricamento...</h2>
+            </div>
+        </div>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>

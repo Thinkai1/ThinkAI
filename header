@@ -1,0 +1,8 @@
+<header>
+    <div class="menu-icon" onclick="document.getElementById('menuSidebar').style.display='block'">&#9776;</div>
+    <div class="logo">ThinkAI</div>
+    <div>
+        <span class="search-icon" onclick="document.getElementById('searchBar').style.display='block'">🔍</span>
+        <span class="translate-icon">🌐</span>
+    </div>
+</header>

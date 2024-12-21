@@ -1,0 +1,88 @@
+:root {
+    --primary-color: #1b4965; /* Colore principale per header, menu e link */
+    --secondary-color: #62b6cb; /* Colore per elementi interattivi e hover */
+    --accent-color: #ffa62b; /* Colore per pulsanti e call-to-action */
+    --background-color: #f7f9fc; /* Sfondo generale del sito */
+    --text-color: #333; /* Colore del testo principale */
+    --header-background: #fff; /* Sfondo dell'header */
+}
+
+/* Stili generali del sito */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--header-background);
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Icone nel menu */
+header .menu-icon, header .translate-icon, header .search-icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* Stili per il menu laterale */
+.menu-sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: var(--primary-color);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    display: none; /* Nascondi di default */
+}
+.menu-sidebar a {
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+}
+.menu-sidebar a:hover {
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+}
+
+/* Stili per le sezioni della homepage */
+.home-sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+.home-section {
+    width: 48%;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+}
+.home-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Note: questi stili si applicano automaticamente a tutte le sezioni, incluse: 
+1. Life Hacks
+2. Ambito Lavorativo
+3. Ambito Universitario
+4. Curiosità AI
+5. News
+6. About Us
+*/
